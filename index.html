@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOVI Smartphones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>JOVI Smartphones</h1>
+        <button id="btnLogin">Login</button>
+        <div id="usuarioLogado" style="display: none;"></div>
+    </header>
+
+    <nav class="menu">
+        <a href="#banner">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#cadastro">Cadastro</a>
+    </nav>
+
+<section id="banner" class="banner">
+    <img id="slide" src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80" alt="Banner Smartphones">
+    <button id="btnAnterior" class="slide-btn">&lt;</button>
+    <button id="btnProximo" class="slide-btn">&gt;</button>
+</section>
+
+<section id="sobre" class="sobre">
+    <h2>Sobre a Empresa</h2>
+    <p>A JOVI é referência em inovação mobile, design sofisticado e tecnologia premium para usuários que buscam performance e estilo.</p>
+</section>
+
+<section id="produtos" class="produtos">
+    <div class="produto">
+        <img src="71D8w+fXuZL.jpg">
+        <h2>JOVI X200 Pro</h2>
+        <p>R$ 3.499,90</p>
+        <button class="comprar">Comprar</button>
+    </div>
+
+    <div class="produto">
+        <img src="jovi10.avif">
+        <h2>JOVI Y29s</h2>
+        <p>R$ 2.199,90</p>
+        <button class="comprar">Comprar</button>
+    </div>
+
+    <div class="produto">
+        <img src="v50.jpg">
+        <h2>JOVI V50</h2>
+        <p>R$ 4.199,90</p>
+        <button class="comprar">Comprar</button>
+    </div>
+</section>
+
+<section class="carrinho-section">
+    <div id="carrinho"></div>
+    <button id="btnAdicionarProduto">Adicionar Produto</button>
+</section>
+
+<section class="vantagens">
+    <h2>Por que escolher JOVI?</h2>
+    <ul>
+        <li>Câmeras de alta resolução</li>
+        <li>Bateria de longa duração</li>
+        <li>Design premium</li>
+        <li>Processadores de última geração</li>
+    </ul>
+</section>
+
+<section id="cadastro" class="cadastro">
+    <h2>Cadastro</h2>
+    <form id="formCadastro">
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="senha" placeholder="Senha">
+        <button type="submit">Cadastrar</button>
+    </form>
+</section>
+
+<footer>
+    <p>Projeto - Sprint 2 | HTML, CSS e JavaScript</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -4,8 +4,8 @@ Este é um projeto de website para a empresa JOVI Smartphones, desenvolvido como
 
 ## Alunos
 
-- RM: 12345 | Nome: João Silva
-- RM: 67890 | Nome: Maria Oliveira
+- RM: 572313 | Nome: raphael mascarenhas
+- RM: 570550 | Nome: felipe motta
 - RM: 11111 | Nome: Pedro Santos
 
 ## Descrição
